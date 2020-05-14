@@ -56,9 +56,10 @@ $ python test.py -r=[PATH_TO_IMAGES]
 ```
 This will create the file *./classification/result.txt* with obtained accuracy and the confusion matrix.
 ## Annotations
-The bounding box annotations for the photos are available from the file *bbox_annotations.txt*, where each row corresponds to a separate image. The annotations follow the following format:
+The bounding box annotations for the photos are available from the file *bounding_boxes.txt*, where each row corresponds to a separate detection. The annotations follow the following format:
 ```
-fileid top left bottom right confidence_score label1 top2 left2 bottom2 right2 confidence_score2 label2
+fileid top left bottom right confidence_score label
+fileid2 top2 left2 bottom2 right2 confidence_score2 label2
 ...
 ```
 The images are available from [here.] 
