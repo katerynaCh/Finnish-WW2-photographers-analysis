@@ -26,8 +26,8 @@ def get_mask_rcnn(model, image, COCO_MODEL_PATH):
     scores = r['scores'][idx]
     classes = r['class_ids'][idx]  
                 
-    #score threshold = 0.3              
-    idxs = np.where(scores > 0.3)
+    #score threshold = 0.7              
+    idxs = np.where(scores > 0.7)
     boxes = boxes[idxs]
     people_scores = scores[idxs]
     classes = classes[idxs]
