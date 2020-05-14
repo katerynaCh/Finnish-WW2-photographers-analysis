@@ -108,7 +108,7 @@ def get_ssd_results(image, model, ssd__graph, ssd__session):
         with ssd__graph.as_default():   
             with ssd__session.as_default(): 
                 y_pred = model.predict(input_images)
-        confidence_threshold = 0.25
+        confidence_threshold = 0.5
         y_pred_thresh = [y_pred[k][y_pred[k,:,1] > confidence_threshold] for k in range(y_pred.shape[0])]
         np.set_printoptions(precision=2, suppress=True, linewidth=90)        
         classes = ['background',
