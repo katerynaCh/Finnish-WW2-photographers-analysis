@@ -66,12 +66,14 @@ The images are available from [here.]
 ### 
 If you find our work useful, please kindly cite our paper as:
 ```
-@article{chumachenko2019machine,
-  title={Machine Learning Based Analysis of Finnish World War II Photographers},
-  author={Chumachenko, Kateryna and M{\"a}nnist{\"o}, Anssi and Iosifidis, Alexandros and Raitoharju, Jenni},
-  journal={arXiv preprint arXiv:1904.09811},
-  year={2019}
-}
+@ARTICLE{9159591,
+  author={K. {Chumachenko} and A. {Männistö} and A. {Iosifidis} and J. {Raitoharju}},
+  journal={IEEE Access}, 
+  title={Machine Learning Based Analysis of Finnish World War II Photographers}, 
+  year={2020},
+  volume={8},
+  number={},
+  pages={144184-144196},}
 ```
 ## References
 * Mask RCNN: https://github.com/matterport/Mask_RCNN
